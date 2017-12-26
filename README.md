@@ -4,7 +4,7 @@ Supervised Generative Segmentation Network for semantic segmentation for all-day
 
 ![Some examples:](https://github.com/yuxiaoz/SGSN/blob/master/images/sgsn.png "Outputs of SGSN")
 
-The code implemented by Tensorflow will be available later.
+The code implemented by Tensorflow will be available after our paper is accepted.
 
 # UAS (UESTC All-Day Scenery)
 
@@ -15,4 +15,4 @@ The dataset for semantic segmentation for the outdoor images in any time.
 A total of 6380 images of different time and weather conditions are contained in UAS, including 1399 samples captured at dusk, 2167 samples captured at night, 819 samples captured in the rain and 1995 samples captured in the sunshine.
 For each image, a precise binary semantic label is made by manual annotation.
 
-The UAS dataset will be available later.
+The UAS dataset will be available after our paper is accepted.
