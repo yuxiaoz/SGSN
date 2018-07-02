@@ -1,10 +1,52 @@
 # SGSN
 
-Supervised Generative Segmentation Network for semantic segmentation for all-day outdoor robot navigation.
+Supervised Generative Segmentation Network for road segmentation for all-day outdoor robot navigation.
 
 <img src="https://github.com/yuxiaoz/SGSN/blob/master/images/sgsn.png" width="480" height="450" alt="SGSN Outputs"/>
 
-The code implemented by Tensorflow will be available in few weeks.
+## Major Requirements
+
+Python 2.7.12
+Numpy 1.13.1
+Tensorflow 1.2.0
+cuda 8.0
+cudnn 5.1.10
+OpenCV 2.4.13
+
+## Running codes
+
+### Build six folders
+
+./datasets/train/X/images/
+./datasets/train/X/labels/
+./datasets/train/Y/images/
+./datasets/train/Y/labels/
+./datasets/test/X/images/
+./datasets/test/X/labels/
+
+### Download UAS dataset
+
+Please follow the links in the "Download links".
+
+### Copy images and labels
+
+To build training sets, copy the images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domain.
+To build test sets, copy the images and the labels of dusk_sight to Y domian.
+
+### Duplicate images and labels of night in training set
+
+cd ./SGSN/datasets
+python2 ./copy_night.py
+
+### Train SGSN
+
+cd ./SGSN
+python2 ./train.py
+
+### Evaluate SGSN
+
+cd ./SGSN
+python2 ./evaluate.py
 
 # UAS (UESTC All-Day Scenery)
 
@@ -27,4 +69,4 @@ The UAS dataset will be available in few weeks.
 
 ## Download links
 
-## Citation
+# Citation
