@@ -2,7 +2,7 @@
 
 Supervised Generative Segmentation Network for semantic segmentation for all-day outdoor robot navigation.
 
-<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/sgsn.png"/width="480"/alt="SGSN Outputs"/>
+<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/sgsn.png" width="480" height="450" alt="SGSN Outputs"/>
 
 The code implemented by Tensorflow will be available after our paper is accepted.
 
