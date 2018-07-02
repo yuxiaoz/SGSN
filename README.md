@@ -41,21 +41,25 @@ Please follow the links in the Download links.
 ### 3. Copy images and labels
 
 To build training sets, copy the images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domain.
+
 To build test sets, copy the images and the labels of dusk_sight to Y domian.
 
 ### 4. Duplicate images and labels of night in training set
 
 cd ./SGSN/datasets
+
 python2 ./copy_night.py
 
 ### 5. Train SGSN
 
 cd ./SGSN
+
 python2 ./train.py
 
 ### 6. Evaluate SGSN
 
 cd ./SGSN
+
 python2 ./evaluate.py
 
 ## Citation
