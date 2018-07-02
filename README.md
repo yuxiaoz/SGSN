@@ -4,18 +4,24 @@ Supervised Generative Segmentation Network for semantic segmentation for all-day
 
 <img src="https://github.com/yuxiaoz/SGSN/blob/master/images/sgsn.png" width="480" height="450" alt="SGSN Outputs"/>
 
-The code implemented by Tensorflow will be available after our paper is accepted.
+The code implemented by Tensorflow will be available in few weeks.
 
 # UAS (UESTC All-Day Scenery)
 
+##Introduction
+
 The dataset for semantic segmentation for the outdoor images in any time. 
 
-<img src="https://img-blog.csdn.net/20180702103140564?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702103404416?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702103431902?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702103500186?"/width="160">
-<img src="https://img-blog.csdn.net/20180702110307681?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110330407?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110401279?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110427180?"/width="160">
-<img src="https://img-blog.csdn.net/20180702110502106?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110531392?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110602535?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110623434?"/width="160">
-<img src="https://img-blog.csdn.net/20180702110655400?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110717222?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110745849?"/width="160">&nbsp;<img src="https://img-blog.csdn.net/20180702110812579?"/width="160">
+<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskSight58.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskLabelGraph58.png" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskSight161.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskLabelGraph161.png" width="160" height="90">
+<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/NightSight248.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/NightLabelGraph248.png" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/NightSight716.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/NightLabelGraph716.png" width="160" height="90">
+<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/RainSight752.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/RainLabelGraph752.png" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/RainSight808.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/RainLabelGraph808.png" width="160" height="90">
+<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/SunSight1169.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/SunLabelGraph1169.png" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/SunSight1304.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/SunLabelGraph1304.png" width="160" height="90">
 
 A total of 6380 images of different time and weather conditions are contained in UAS, including 1399 samples captured at dusk, 2167 samples captured at night, 819 samples captured in the rain and 1995 samples captured in the sunshine.
 For each image, a precise binary semantic label is made by manual annotation.
 
-The UAS dataset will be available after our paper is accepted.
+The UAS dataset will be available in few weeks.
+
+##Download links
+
+##Citation
