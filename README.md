@@ -40,9 +40,9 @@ Please follow the links in the Download links.
 
 ### 3. Copy images and labels
 
-To build training sets, copy the images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domain.
+To build training set, copy the training images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domain (./datasets/train/X/images/, ./datasets/train/X/labels), and copy the images and the labels of dusk_sight to Y domain (./datasets/train/Y/images/, ./datasets/train/Y/labels).
 
-To build test sets, copy the images and the labels of dusk_sight to Y domian.
+To build test set, copy the test images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domian (./datasets/test/X/images/, ./datasets/test/X/labels).
 
 ### 4. Duplicate images and labels of night in training set
 
