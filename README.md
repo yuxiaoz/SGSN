@@ -40,9 +40,9 @@ Please follow the links in the Download links.
 
 ### 3. Copy images and labels
 
-To build training set, copy the training images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domain (./datasets/train/X/images/, ./datasets/train/X/labels), and copy the images and the labels of dusk_sight to Y domain (./datasets/train/Y/images/, ./datasets/train/Y/labels).
+To build training set, copy the training images and the labels (not label graphs) of dusk_sight, night_sight, rain_sight and sun_sight to X domain (./datasets/train/X/images/, ./datasets/train/X/labels), and copy the images and the labels of dusk_sight to Y domain (./datasets/train/Y/images/, ./datasets/train/Y/labels).
 
-To build test set, copy the test images and the labels of dusk_sight, night_sight, rain_sight and sun_sight to X domian (./datasets/test/X/images/, ./datasets/test/X/labels).
+To build test set, copy the test images and the labels (not label graphs) of dusk_sight, night_sight, rain_sight and sun_sight to X domian (./datasets/test/X/images/, ./datasets/test/X/labels).
 
 ### 4. Duplicate images and labels of night in training set
 
@@ -68,7 +68,7 @@ python2 ./evaluate.py
 
 ## Introduction
 
-The dataset for semantic segmentation for the outdoor images in any time. 
+The dataset for road segmentation for the outdoor images in any time. 
 
 <img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskSight58.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskLabelGraph58.png" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskSight161.jpg" width="160" height="90">&nbsp;<img src="https://github.com/yuxiaoz/SGSN/blob/master/images/DuskLabelGraph161.png" width="160" height="90">
 
