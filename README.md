@@ -22,17 +22,17 @@ OpenCV 2.4.13
 
 ### 1. Build six folders
 
-./datasets/train/X/images/
+(YOUR_PATH)/SGSN/datasets/train/X/images/
 
-./datasets/train/X/labels/
+(YOUR_PATH)/SGSN/datasets/train/X/labels/
 
-./datasets/train/Y/images/
+(YOUR_PATH)/SGSN/datasets/train/Y/images/
 
-./datasets/train/Y/labels/
+(YOUR_PATH)/SGSN/datasets/train/Y/labels/
 
-./datasets/test/X/images/
+(YOUR_PATH)/SGSN/datasets/test/X/images/
 
-./datasets/test/X/labels/
+(YOUR_PATH)/SGSN/datasets/test/X/labels/
 
 ### 2. Download UAS dataset
 
@@ -46,19 +46,19 @@ To build test set, copy the test images and the labels of dusk_sight, night_sigh
 
 ### 4. Duplicate images and labels of night in training set
 
-cd ./SGSN/datasets
+cd (YOUR_PATH)/SGSN/datasets
 
 python2 ./copy_night.py
 
 ### 5. Train SGSN
 
-cd ./SGSN
+cd (YOUR_PATH)/SGSN
 
 python2 ./train.py
 
 ### 6. Evaluate SGSN
 
-cd ./SGSN
+cd (YOUR_PATH)/SGSN
 
 python2 ./evaluate.py
 
