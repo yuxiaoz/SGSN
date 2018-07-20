@@ -85,4 +85,14 @@ The UAS dataset will be available in few weeks.
 
 ## Download links
 
+https://pan.baidu.com/s/1IWSVKYBrYwxaRThPfDsDGg
+
 ## Citation
+
+@article{zhang2018road,
+  title={Road Segmentation for All-Day Outdoor Robot Navigation},
+  author={Zhang, Yuxiao and Chen, Haiqiang and He, Yiran and Ye, Mao and Cai, Xi and Zhang, Dan},
+  journal={Neurocomputing},
+  year={2018},
+  publisher={Elsevier}
+}
