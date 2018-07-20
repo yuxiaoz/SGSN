@@ -81,18 +81,16 @@ The dataset for road segmentation for the outdoor images in any time.
 A total of 6380 images of different time and weather conditions are contained in UAS, including 1399 samples captured at dusk, 2167 samples captured at night, 819 samples captured in the rain and 1995 samples captured in the sunshine.
 For each image, a precise binary semantic label is made by manual annotation.
 
-The UAS dataset will be available in few weeks.
-
 ## Download links
 
 https://pan.baidu.com/s/1IWSVKYBrYwxaRThPfDsDGg
 
 ## Citation
 
-@article{zhang2018road,
-  title={Road Segmentation for All-Day Outdoor Robot Navigation},
-  author={Zhang, Yuxiao and Chen, Haiqiang and He, Yiran and Ye, Mao and Cai, Xi and Zhang, Dan},
-  journal={Neurocomputing},
-  year={2018},
-  publisher={Elsevier}
-}
+@article{zhang2018road,   
+  title={Road Segmentation for All-Day Outdoor Robot Navigation},   
+  author={Zhang, Yuxiao and Chen, Haiqiang and He, Yiran and Ye, Mao and Cai, Xi and Zhang, Dan},   
+  journal={Neurocomputing},   
+  year={2018},   
+  publisher={Elsevier}   
+  }
